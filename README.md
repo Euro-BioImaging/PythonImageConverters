@@ -4,7 +4,7 @@ A module that runs the image data converters bfconvert and bioformats2raw from p
 ## Example
 
 ```
-from DataConverter import get_bf2raw_cmd, bioformats2raw, bfconvert
+from DataConverter import bioformats2raw
 
 res = bioformats2raw('/path/to/input',
                      '/path/to/output.źarr',
